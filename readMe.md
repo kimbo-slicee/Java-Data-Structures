@@ -9,7 +9,7 @@ a process that consumes considerable time and energy, ultimately leading to frus
 Therefore, it is advisable to organize your living space for a quick and efficient retrieval of items.
 An important consideration is that this approach minimizes energy expenditure.
 ### Type of Data Structures 
-![image description](Data Structure.png)
+![image description](https://github.com/kimbo-slicee/Data-Structures/blob/main/javaDataStructure.jpg?raw=true)
 ### Algorithms
 An Algorithm is a set of instruction to perform a task or to solve a given problem 
 for example-
