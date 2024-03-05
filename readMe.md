@@ -13,3 +13,16 @@ An important consideration is that this approach minimizes energy expenditure.
 ### Algorithms
 An Algorithm is a set of instruction to perform a task or to solve a given problem 
 for example-
+### Analysis of Algorithms
+Analysis of algorithm deals in finding best algorithm which runs 
+fast and takes in less memory  
+[1]:Time Complexity 
+it is the amount of time taken by algorithm to run 
+the input processed by an 
+algorithm helps in determining the time complexity 
+Note 📝:in java we can use System.CurrentTimeMille function to know the different of time of execution between tow algorithems 📌
+ 
+[2]:Space Complexity
+### time Complexity 
+
+
