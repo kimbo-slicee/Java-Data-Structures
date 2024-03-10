@@ -11,8 +11,12 @@ Therefore, it is advisable to organize your living space for a quick and efficie
 An important consideration is that this approach minimizes energy expenditure.
 
 ### Type of Data Structures 
+<<<<<<< HEAD
 ![image description]( algorithms/src/main/resources/images/Data%20Structure.png)
 
+=======
+![image description](https://github.com/kimbo-slicee/Data-Structures/blob/main/javaDataStructure.jpg?raw=true)
+>>>>>>> 9231beccad29cb488ca81028dd72d675323bee3f
 ### Algorithms
 
 An Algorithm is a set of instructions to perform a task or to solve a given problem, 
