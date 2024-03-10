@@ -2,6 +2,9 @@
 ### What are Data Structures? 🤔
 A specialized format for organizing, processing, 
 retrieving and storing data.
+<p align="center">
+<img src="algorithms/src/main/resources/images/data-structure-gif.gif" alt="Data">
+</p>
 
 ### Why we need Data Structures
 After organizing data, it becomes easy to process it.
@@ -11,12 +14,9 @@ Therefore, it is advisable to organize your living space for a quick and efficie
 An important consideration is that this approach minimizes energy expenditure.
 
 ### Type of Data Structures 
-<<<<<<< HEAD
+
 ![image description]( algorithms/src/main/resources/images/Data%20Structure.png)
 
-=======
-![image description](https://github.com/kimbo-slicee/Data-Structures/blob/main/javaDataStructure.jpg?raw=true)
->>>>>>> 9231beccad29cb488ca81028dd72d675323bee3f
 ### Algorithms
 
 An Algorithm is a set of instructions to perform a task or to solve a given problem, 
@@ -81,8 +81,7 @@ For example, O(log n) represents a binary search algorithm’s upper bound.
 The Theta Asymptotic Notation Ο(n) represents the both lower bound and upper bound of an algorithm’s running time. 
 It measures the average case of time complexity. When we use big-Θ notation, 
 we’re saying that we have an asymptotically tight bound on the running time.
-
-### Why are asymptotic notations important?
+#### Why are asymptotic notations important?
 Asymptotic notations provide a standardized way to compare and analyze algorithms’ efficiency, making it easier to assess their scalability and performance characteristics. They help us focus on the core trends in algorithm behavior as input sizes become large, 
 which is essential for designing robust and efficient software.
 
