@@ -12,11 +12,13 @@ public class Main {
 
 
     }
-    /* First methode */
+    /** First methode time Taken - 0 molluscs */
     public static int findSum(int n){
         return n* (n+1)/2;
     }
-    /* Second Methode */
+    /**
+     * Second Methode time Taken - 1.0molluscs
+     * */
     public static int  findSumTwo(int n){
         int sum =0;
         for (int i=1 ; i<=n ; i++) sum+=i;
