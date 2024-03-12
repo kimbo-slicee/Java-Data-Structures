@@ -25,4 +25,16 @@ public class Main {
         return sum;
     }
 
+public static void  print(int n){
+        for(int i=0 ; i<=n ; i++){
+            for(int j=i ; j<=n ;j++ ){
+                System.out.println("i=" +i + "j=0 " +j );
+            }
+            System.out.println("end of inner Loop");
+        }
+             System.out.println("end of main Loop ");
+    }
+
+
+
 }

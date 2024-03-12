@@ -76,12 +76,82 @@ There are three notations for performing runtime analysis of an algorithm
 The Asymptotic Notation Ο(n) represents the upper bound of an algorithm’s running time.
 It measures or calculates the worst-case time complexity or the maximum or longest amount of time an algorithm can possibly take to complete.
 For example, O(log n) represents a binary search algorithm’s upper bound.
+#### Rules of Big O(O) Notation 📍
+- it's a Single Processor 
+- it performs Sequential Execution of statements 
+- Assignment operation takes one unit of Time 
+- Return statement takes in one unit of time 
+- Arithmetical operation and Logical Operation takes one unit of Time
+- Other Small/single operations take one unit of time 
+- Drop lower order terms: if n is huge we Drop lower order terms T=n²+3n+1====>O(n²)
+- Drop constant multipliers T=3n²+6n+1 ====> O(n²)
 #### Theta Asymptotic Notation, θ
 ![image description]( algorithms/src/main/resources/images/Teta-AsymptoticNotation.png)
 The Theta Asymptotic Notation Ο(n) represents the both lower bound and upper bound of an algorithm’s running time. 
 It measures the average case of time complexity. When we use big-Θ notation, 
 we’re saying that we have an asymptotically tight bound on the running time.
 #### Why are asymptotic notations important?
-Asymptotic notations provide a standardized way to compare and analyze algorithms’ efficiency, making it easier to assess their scalability and performance characteristics. They help us focus on the core trends in algorithm behavior as input sizes become large, 
+Asymptotic notations provide a standardized way to compare and analyze algorithms’ efficiency,
+making it easier to assess their scalability and performance characteristics. 
+They help us focus on the core trends in algorithm behavior as input sizes become large, 
 which is essential for designing robust and efficient software.
+### Calculating Time Complexity of Constant Algorithm 
+If an algorithm's time complexity is constant, it means that it will always run in the same amount of time;
+no matter the input size.For example, 
+if we want to get the first item of an array,it doesn't matter how big the input size is.
+<p align="left">
+<img src="algorithms/src/main/resources/images/Capture.PNG" alt="Time Complexity of a constant  Example"><br>
+in the First line we have four operations, so we have four Unite of Time 
+and in the second line we have to operation, so it'd two unite of times  
+T=4+2=6 ==> T=C(Constant)
+</p>
+In Complexity fo Constant Algorithm wherever the input size the Time complexity always still the O(1) 
+  
+            ┌————————————————————————————————————————————┐ 
+            │ Line number  | operations  | unite of Time │   
+            │------------- | ----------- | ------------- │ 
+            │      2       |   1+1+1+1   |      4        │ 
+            │ ------------ | ----------- | ------------- │
+            │      3       |     1+1     |      2        │  
+            │ ------------ | ----------- | ------------- │
+            └————————————————————————————————————————————┘
+            T=4+2=6
+            T~(Constant)
+            O(1)
+
+![Constant Time Complexity image ](algorithms/src/main/resources/images/ConstantTimeComplextiy.png)
+
+### Calculating time Complexity of Linear Algorithm
+An algorithm is said to have a linear time complexity when the running time increases linearly with the length of the input.
+When the function involves checking all the values in input data, with this order O(n).
+The above code shows that based on the length of the array (n), 
+the run time will get linearly increased.<br>
+![img.png](algorithms/src/main/resources/images/img.png)
+
+     ┌————————————————————————————————————————————┐
+     │ Line number  | operations  | unite of Time │   
+     │------------- | ----------- | ------------- │
+     │      29      |      1      |      1        │
+     │ ------------ | ----------- | ------------- │
+     │      30      |  1+3n+3+3n  |     6n+4      │  
+     │ ------------ | ----------- | ------------- │
+     │      31      | n(1+1+1+1)  |      4n       │
+     │ ------------ | ----------- | ------------- │
+     │      33      |     1+1     |      2        │     
+     │ ------------ | ----------- | ------------- │
+     └————————————————————————————————————————————┘
+
+* <p> T=1+6n+4n+2 = 10n+7 in big O roles we have to ignore the constant 10 and lower Value 7 so O(n) </p> 
+![TimeComplexityOfLinear diagram](algorithms\src\main\resources\images\TimeComplexityofLinear.png)
+Note 📝: \
+time is proportional with the input size
+
+### Calculating time Complexity of Polynomial Algorithm
+![img.png](algorithms/src/main/resources/images/img.png)
+
+
+
+
+
+
 
