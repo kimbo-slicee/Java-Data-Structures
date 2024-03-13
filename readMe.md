@@ -142,16 +142,40 @@ the run time will get linearly increased.<br>
      └————————————————————————————————————————————┘
 
 * <p> T=1+6n+4n+2 = 10n+7 in big O roles we have to ignore the constant 10 and lower Value 7 so O(n) </p> 
+
 ![TimeComplexityOfLinear diagram](algorithms\src\main\resources\images\TimeComplexityofLinear.png)
+
 Note 📝: \
 time is proportional with the input size
 
 ### Calculating time Complexity of Polynomial Algorithm
-![img.png](algorithms/src/main/resources/images/img.png)
+Understanding Polynomial Time Complexity: Polynomial-time complexity is denoted by the "O(n^k)" notation,
+where "n" represents the input size and "k" represents the degree of the polynomial.
+In simpler terms, a polynomial time algorithm's runtime is directly proportional to some power of the input size \
+![img](algorithms/src/main/resources/images/img.png)
 
+    ┌————————————————————————————————————————————┐
+    │ Line number  | operations  | unite of Time │   
+    │------------- | ----------- | ------------- │ 
+    │      2       |  1+3n+3+3n  |    6n+4       │
+    │ ------------ | ----------- | ------------- │
+    │      3       | n(1+3n+3+3n)|    6n²+4      │  
+    │ ------------ | ----------- | ------------- │
+    │      4       | n²(1+1+1)   |     3n²       │
+    │ ------------ | ----------- | ------------- │
+    │      6       |      n      |      n        │     
+    │ ------------ | ----------- | ------------- │
+    │      8       |      1      |      1        │
+    └————————————————————————————————————————————┘
+     T=6n+4+6n²+4n+3n+n+1=9n²+11+5=O(n²)
 
+![Big O polynomial Alogorithem ](algorithms/src/main/resources/images/Big-O-Notation-Polynomial-Algorithm.png) \
+Note 📝;
+that's why we shouldn't 🚨 have to use nested loop a lot in our program
 
-
-
+# What is an Array? 🤔
+An array is a collection of items of the same data type stored at contiguous memory locations, 
+And the size of the array is immutable (Fixed) cannot be modified. 
+![Array](algorithms/src/main/resources/images/array.png)
 
 
