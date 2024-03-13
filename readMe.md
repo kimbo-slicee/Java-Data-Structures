@@ -143,7 +143,7 @@ the run time will get linearly increased.<br>
 
 * <p> T=1+6n+4n+2 = 10n+7 in big O roles we have to ignore the constant 10 and lower Value 7 so O(n) </p> 
 
-![TimeComplexityOfLinear diagram](algorithms\src\main\resources\images\TimeComplexityofLinear.png)
+![TimeComplexityOfLinear-diagram](algorithms/src/main/resources/images/TimeComplexityofLinear.png)
 
 Note 📝: \
 time is proportional with the input size
