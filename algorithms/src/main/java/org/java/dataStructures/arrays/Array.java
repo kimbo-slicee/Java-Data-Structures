@@ -14,9 +14,16 @@ public class Array {
      * dataType[] arrayName=new dataType[size]
     * */
     public static void main(String[] args) {
-        int[] arrayOne=new int[5];
-        int[] arrayTwo={1,2,3,4,5};
-        arrayOne[6]=6;//java.lang.ArrayIndexOutOfBoundsException
+        printArray(new int[] {1,2,3,4,5,6});
     }
+    /**/
+    public static void printArray(int[] array){
+        int n =array.length;
+        for (int i=0 ; i<n ; i++ ) System.out.println("Index: "+ i + "Element:" + array[i]);
+    }
+
+
+
+
 
 }
