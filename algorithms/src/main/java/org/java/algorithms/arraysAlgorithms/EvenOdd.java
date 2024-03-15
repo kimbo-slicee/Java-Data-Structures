@@ -6,7 +6,7 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Arrays;
 
 public class EvenOdd {
-    /*
+     /*
     Given an array of integers,
     return an array with even integers removed
     Example:
@@ -16,7 +16,7 @@ public class EvenOdd {
     public int[] removeEven(int @NotNull [] arr){
         int oddCounter=0;
         for (int i=0 ; i< arr.length;i++){
-            if(arr[i]%2==0) oddCounter+=1;
+            if(arr[i]%2!=0) oddCounter++;
         }
         int[] result=new int[oddCounter];
         int index =0;
