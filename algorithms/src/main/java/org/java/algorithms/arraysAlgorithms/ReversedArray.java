@@ -19,6 +19,7 @@ public class ReversedArray {
     }
     /*Methode Two 2️⃣*/
     public static int[] revers(int[] number ,int start, int end ){
+        /*in this solution, we use the variable to swap the value in start and the value in the end */
         while (start<end){
             int temp =number[start];
             number[start]=number[end];
@@ -26,7 +27,8 @@ public class ReversedArray {
             start++;
             end--;
         }
-        
+        return number;
+
     }
 
     public static void main(String[] args) {

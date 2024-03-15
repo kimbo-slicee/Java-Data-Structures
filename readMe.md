@@ -1,4 +1,6 @@
 # INTRODUCTION TO ➡  DATA STRUCTURES 📊
+![Static Badge](https://img.shields.io/badge/kimbo_Slicee-Data_Structures-chartreuse?style=plastic&logo=github&labelColor=indigo&color=gold&link=https%3A%2F%2Fgithub.com%2Fkimbo-slicee)\
+![Maven project](https://img.shields.io/badge/Maven_project-passing-chartreuse?style=flat&logo=apachemaven)
 ### What are Data Structures? 🤔
 A specialized format for organizing, processing, 
 retrieving and storing data.
@@ -15,7 +17,9 @@ An important consideration is that this approach minimizes energy expenditure.
 
 ### Type of Data Structures 
 
-![image description]( algorithms/src/main/resources/images/Data%20Structure.png)
+
+ <img src="algorithms/src/main/resources/images/javaDataStructure.jpg" alt="data-Structure"> Data Structures 
+
 
 ### Algorithms
 
@@ -39,10 +43,10 @@ it is the amount of memory 💾 or space taken by algorithm to run
 the memory required to process the input by an algorithm helps in determining the space complexity 
 
 ### Asymptotic Analysis of an Algorithm
-Asymptotic analysis is a mathematical technique
-used for understanding the behavior of algorithms as their input increases. 
+>**Asymptotic analysis is a mathematical technique**
+>>*used for understanding the behavior of algorithms as their input increases. 
 It uses asymptotic notations to describe the growth rate or time complexity of an algorithm, 
-which allows us to compare different algorithms and understand how they perform in realistic scenarios.
+which allows us to compare different algorithms and understand how they perform in realistic scenarios.*
 <p align="center">
 <img src="algorithms/src/main/resources/images/bigOnatation.jpg" alt="BigOnAnnotation" width="600" height="400" >
 </p>
