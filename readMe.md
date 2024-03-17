@@ -1,6 +1,5 @@
 # INTRODUCTION TO ➡  DATA STRUCTURES 📊
-![Static Badge](https://img.shields.io/badge/kimbo_Slicee-Data_Structures-chartreuse?style=plastic&logo=github&labelColor=indigo&color=gold&link=https%3A%2F%2Fgithub.com%2Fkimbo-slicee)\
-![Maven project](https://img.shields.io/badge/Maven_project-passing-chartreuse?style=flat&logo=apachemaven)
+![Static Badge](https://img.shields.io/badge/kimbo_Slicee-Data_Structures-chartreuse?style=plastic&logo=github&labelColor=indigo&color=gold&link=https%3A%2F%2Fgithub.com%2Fkimbo-slicee) ![Maven project](https://img.shields.io/badge/Maven_project-passing-chartreuse?style=flat&logo=apachemaven)
 ### What are Data Structures? 🤔
 A specialized format for organizing, processing, 
 retrieving and storing data.
