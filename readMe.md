@@ -156,17 +156,11 @@ Understanding Polynomial Time Complexity: Polynomial-time complexity is denoted 
 where "n" represents the input size and "k" represents the degree of the polynomial.
 In simpler terms, a polynomial time algorithm's runtime is directly proportional to some power of the input size \
 ![img](algorithms/src/main/resources/images/img.png)
-                                                           │ Line number  | operations  | unite of Time │   
-                                                           │ :---         |    :----:   |          ---: │ 
-                                                           │      2       |  1+3n+3+3n  |    6n+4       │
-                                                           │              |             |               │
-                                                           │      3       | n(1+3n+3+3n)|    6n²+4      │  
-                                                           │              |             |               │
-                                                           │      4       | n²(1+1+1)   |     3n²       │
-                                                           │              |             |               │
-                                                           │      6       |      n      |      n        │     
-                                                           │              |             |               │
-                                                           │      8       |      1      |      1        │
+
+| Line number | operations  | unite of Time |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |                
                                                         
                                                                  T=6n+4+6n²+4n+3n+n+1=9n²+11+5=O(n²)
 
@@ -177,12 +171,6 @@ that's why we shouldn't 🚨 have to use nested loop a lot in our program
 # What is an Array? 🤔
 An array is a collection of items of the same data type stored at contiguous memory locations, 
 And the size of the array is immutable (Fixed) cannot be modified. 
-
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
-
 ![Array](algorithms/src/main/resources/images/array.png)
 
 
