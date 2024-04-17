@@ -157,7 +157,6 @@ where "n" represents the input size and "k" represents the degree of the polynom
 In simpler terms, a polynomial time algorithm's runtime is directly proportional to some power of the input size \
 ![img](algorithms/src/main/resources/images/img.png)
 
-    ┌————————————————————————————————————————————┐
     │ Line number  | operations  | unite of Time │   
     │------------- | ----------- | ------------- │ 
     │      2       |  1+3n+3+3n  |    6n+4       │
@@ -169,7 +168,8 @@ In simpler terms, a polynomial time algorithm's runtime is directly proportional
     │      6       |      n      |      n        │     
     │ ------------ | ----------- | ------------- │
     │      8       |      1      |      1        │
-    └————————————————————————————————————————————┘
+   
+    
      T=6n+4+6n²+4n+3n+n+1=9n²+11+5=O(n²)
 
 ![Big O polynomial Alogorithem ](algorithms/src/main/resources/images/Big-O-Notation-Polynomial-Algorithm.png) \
