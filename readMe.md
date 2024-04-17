@@ -178,6 +178,12 @@ that's why we shouldn't 🚨 have to use nested loop a lot in our program
 # What is an Array? 🤔
 An array is a collection of items of the same data type stored at contiguous memory locations, 
 And the size of the array is immutable (Fixed) cannot be modified. 
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 ![Array](algorithms/src/main/resources/images/array.png)
 
 
