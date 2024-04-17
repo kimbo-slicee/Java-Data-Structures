@@ -156,9 +156,8 @@ Understanding Polynomial Time Complexity: Polynomial-time complexity is denoted 
 where "n" represents the input size and "k" represents the degree of the polynomial.
 In simpler terms, a polynomial time algorithm's runtime is directly proportional to some power of the input size \
 ![img](algorithms/src/main/resources/images/img.png)
-
                                                            │ Line number  | operations  | unite of Time │   
-                                                           │------------- | ----------- | ------------- │ 
+                                                           │ :---         |    :----:   |          ---: │ 
                                                            │      2       |  1+3n+3+3n  |    6n+4       │
                                                            │              |             |               │
                                                            │      3       | n(1+3n+3+3n)|    6n²+4      │  
